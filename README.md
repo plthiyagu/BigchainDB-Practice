@@ -20,14 +20,19 @@ Sample code handson from : https://docs.bigchaindb.com/projects/py-driver/en/lat
 Code snippet look at : https://docs.bigchaindb.com/projects/py-driver/en/latest/usage.html
 
 
+
 Once installation done, keep mongoDB running on one terminal and blockchainDB running on another terminal.
 
 $ sudo mkdir -p /data/db
+
 $ sudo chmod -R 700 /data/db
+
 Drop and recreate /data/db if any issue with connection to mongoDB
 
 $ sudo mongod --replSet=bigchain-rs
+
 $ bigchaindb -y configure mongodb
+
 $ bigchaindb start
 
 http://127.0.0.1:9984/
