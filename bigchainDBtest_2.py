@@ -100,9 +100,13 @@ def main():
 	bob, carly = generate_keypair(), generate_keypair()
 
 	prepared_token_tx = prepareTransferAsset(operation='CREATE',signers=bob.public_key,recipients=[([carly.public_key], 10)],asset=bicycle_token,)
-
 	fulfilled_token_tx = fulfillAsset(prepared_token_tx, private_keys=bob.private_key)
+	sent_token_tx = sentAsset(fulfilled_token_tx)
+	sent_token_tx = fulfilled_token_tx
 
+	#print(sent_token_tx)
+
+	print(bigDB.assets.get(search='bigchaindb', limit=2))
 
 if __name__ == '__main__':
 	main()
