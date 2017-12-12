@@ -38,7 +38,9 @@ $ bigchaindb start
 http://127.0.0.1:9984/
 
 
+Run with python3
 
+$ python3 <>.py
 
 
 
