@@ -1,3 +1,5 @@
+![Logo of the project](https://github.com/vivek-bombatkar/BIgchainDB_Practice/blob/master/bigchaindb_logo.JPG)
+
 # BIgchainDB_Practice
 https://www.bigchaindb.com/getstarted/
 
