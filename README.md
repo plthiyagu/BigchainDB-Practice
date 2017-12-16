@@ -1,7 +1,7 @@
 ![Logo of the project](https://github.com/vivek-bombatkar/BIgchainDB_Practice/blob/master/bigchaindb_logo.JPG)
 
-# BIgchainDB_Practice
-https://www.bigchaindb.com/getstarted/
+# Hands-on exercise on BigchainDB to getting conceptual familiarity on Blockchain 
+https://www.bigchaindb.com/
 
 
 Install MongoDB and bigchainDB python package from : https://docs.bigchaindb.com/projects/server/en/latest/quickstart.html
