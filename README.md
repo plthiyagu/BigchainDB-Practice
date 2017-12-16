@@ -62,6 +62,9 @@ response from the node should be the same as that which was sent
 ### Create VS Transfer Asset
 Create asset is a special case in that the asset id is NOT found on the asset itself, but is simply the CREATE transaction’s id VS If you instead wanted to consume TRANSFER transactions (for example, fulfilled_transfer_tx), you could obtain the asset id to transfer from the asset['id'] property
 
+![Create VS Transfer Asset] (https://github.com/vivek-bombatkar/BIgchainDB_Practice/blob/master/Asset_CreateVsTransfer.JPG)
+
+
 In order to prepare a transfer transaction, we needs to provide at least three things:
 1. inputs – one or more fulfillments that fulfill a prior transaction’s output conditions.
 2. asset['id'] – the id of the asset being transferred.
