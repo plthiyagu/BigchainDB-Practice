@@ -90,6 +90,15 @@ The basic workflow for creating a more complex cryptocondition is the following:
 Create a transaction template that includes the public key of all (nested) parties (signers) in the output‘s public_keys
 Set up the threshold condition using the cryptocondition library. Update the output’s condition and hash in the transaction template.
 
+### Timeout Conditions
+Timeout conditions allow assets to expire after a certain time. The primary use case of timeout conditions is to enable Escrow.
+The condition can only be fulfilled before the expiry time. Once expired, the asset is lost and cannot be fulfilled by anyone
+
+### Escrow
+Escrow is a mechanism for conditional release of assets.
+This means that the assets are locked up by a trusted party until an execute condition is presented. In order not to tie up the assets forever, the escrow foresees an abort condition, which is typically an expiry time.
+BigchainDB and cryptoconditions provides escrow out-of-the-box, without the need of a trusted party.
+A threshold condition is used to represent the escrow, since BigchainDB transactions cannot have a pending state
 
 
 
