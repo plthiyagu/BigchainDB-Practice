@@ -43,6 +43,24 @@ $ python3 <>.py
 ## Code refrence from
 > https://docs.bigchaindb.com/projects/py-driver/en/latest/usage.html
 
+## Open issues
+While running it from Jupyter notebook
+```Shell
+import sys
+sys.path.append("/usr/local/lib/python3.5/dist-packages/")
+
+import bigchaindb_driver
+from bigchaindb_driver import BigchainDB
+from bigchaindb_driver.crypto import generate_keypair
+
+  File "/usr/local/lib/python3.5/dist-packages/bigchaindb_driver/driver.py", line 16
+    def __init__(self, *nodes, transport_class=Transport, headers=None):
+                                             ^
+SyntaxError: invalid syntax
+```
+
+
+
 ## My notes
 
 ### Cryptographic Identities Generation
