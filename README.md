@@ -1,4 +1,4 @@
-![Logo of the project](https://github.com/vivek-bombatkar/BIgchainDB_Practice/blob/master/bigchaindb_logo.JPG)
+![Logo of the project](https://github.com/vivek-bombatkar/BigchainDB-Practice/blob/master/pics/bigchaindb_logo.JPG)
 
 # Hands-on exercise on BigchainDB to getting conceptual familiarity on Blockchain 
 > https://www.bigchaindb.com/
@@ -7,7 +7,7 @@
 ## Install MongoDB and bigchainDB python package
 > https://docs.bigchaindb.com/projects/server/en/latest/quickstart.html
 
-![bdb_mongodb]()
+![bdb_mongodb](https://github.com/vivek-bombatkar/BigchainDB-Practice/blob/master/pics/bdb_mongodb.png)
 
 Issue while installation - 
 ```shell
@@ -100,7 +100,7 @@ response from the node should be the same as that which was sent
 ### Create VS Transfer Asset
 Create asset is a special case in that the asset id is NOT found on the asset itself, but is simply the CREATE transaction’s id VS If you instead wanted to consume TRANSFER transactions (for example, fulfilled_transfer_tx), you could obtain the asset id to transfer from the asset['id'] property
 
-![Create VS Transfer Asset](https://github.com/vivek-bombatkar/BIgchainDB_Practice/blob/master/Asset_CreateVsTransfer.JPG)
+![Create VS Transfer Asset](https://github.com/vivek-bombatkar/BigchainDB-Practice/blob/master/pics/Asset_CreateVsTransfer.JPG)
 
 
 In order to prepare a transfer transaction, we needs to provide at least three things:
