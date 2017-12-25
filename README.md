@@ -7,7 +7,7 @@
 ## Install MongoDB and bigchainDB python package
 > https://docs.bigchaindb.com/projects/server/en/latest/quickstart.html
 
-![bdb_mongodb](https://github.com/vivek-bombatkar/BigchainDB-Practice/blob/master/pics/bdb_mongodb.png)
+<img src="./pics/bdb_mongodb.png" width="500" height="200" />
 
 Issue while installation - 
 ```shell
