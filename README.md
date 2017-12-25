@@ -7,6 +7,8 @@
 ## Install MongoDB and bigchainDB python package
 > https://docs.bigchaindb.com/projects/server/en/latest/quickstart.html
 
+![bdb_mongodb]()
+
 Issue while installation - 
 ```shell
 vivek@ubuntu:~$ sudo apt-get install -y mongodb-org
