@@ -40,7 +40,7 @@ Check running it on localhost
 $ python3 <>.py
 ```
 
-###local instance VS Public BigchainDB Network
+### Running bigchain db in local instance VS Public BigchainDB Network
 > https://developers.ipdb.io/
 
 ```shell
