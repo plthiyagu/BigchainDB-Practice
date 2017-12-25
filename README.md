@@ -40,6 +40,24 @@ Check running it on localhost
 $ python3 <>.py
 ```
 
+###local instance VS Public BigchainDB Network
+> https://developers.ipdb.io/
+
+```shell
+#connect the localhost instance after installing MongoDB and BigchainDB locally  
+root_url='http://127.0.0.1:9984/'
+bigDB=BigchainDB(root_url)
+
+#VS
+	
+#connect to IPDB Dev Portal's App on Public BigchainDB Network
+tokens={}
+tokens['app_key']='7ff2bf9erwrb0c33f7f6c89c249440fd78'
+tokens['app_id']='6022e042f9'
+bigDB = BigchainDB('https://test.ipdb.io',headers=tokens)
+```
+
+
 ## Code refrence from
 > https://docs.bigchaindb.com/projects/py-driver/en/latest/usage.html
 

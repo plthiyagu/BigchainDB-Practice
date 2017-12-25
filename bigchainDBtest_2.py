@@ -30,10 +30,16 @@ def sentAsset(fulfilled_tx):
 
 def getTransStatus(id):
 	try:
-	    status = bigDB.transactions.status(id)
+		status = bigDB.transactions.status(id)
 	except NotFoundError as e:
-	    logger.error('Transaction "%s" was not found.',id,extra={'status': e.status_code})
+		logger.error('Transaction "%s" was not found.',id,extra={'status': e.status_code})
 
+def get_DB_object():
+	tokens={}
+	tokens['app_key']='7ff2bf9a5efdfb0c33f7f6c89c249440fd78'
+	tokens['app_id']='316032e0f9'
+	bdb = BigchainDB('https://test.ipdb.io',headers=tokens)
+	return bdb
 
 def main():
 	global logger
@@ -45,7 +51,8 @@ def main():
 	#create bigchain db object
 	root_url='http://127.0.0.1:9984/'
 	global bigDB
-	bigDB=BigchainDB(root_url)
+	bigDB=get_DB_object()
+	#bigDB=BigchainDB(root_url)
 
 	bicycle, metadata = defineAsset()
 
