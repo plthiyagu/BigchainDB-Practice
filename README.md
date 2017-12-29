@@ -4,6 +4,7 @@
 # Hands-on exercise on BigchainDB to getting conceptual familiarity on Blockchain 
 > https://www.bigchaindb.com/
 
+![bigchaindb_basics](https://github.com/vivek-bombatkar/BigchainDB-Practice/blob/master/pics/bigchaindb_basics.png)
 
 ## Install MongoDB and bigchainDB python package
 > https://docs.bigchaindb.com/projects/server/en/latest/quickstart.html
